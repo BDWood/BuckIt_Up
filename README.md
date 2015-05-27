@@ -1,1 +1,4 @@
 # Bucket-List
+
+## Buisness Rules
+
