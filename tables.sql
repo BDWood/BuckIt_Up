@@ -7,21 +7,22 @@ create table user (
     first_name varchar(255),
     last_name varchar(255),
     email varchar(255),
-)
+    handle varchar(255)
+);
 
-INSERT INTO user (first_name, last_name, email, phone)
+INSERT INTO user (first_name, last_name, email, handle)
     values 
-    ('Bob', 'the man', 'bob@theman.com'),
-    ('This', 'guy', 'this@guy.com'),
-    ('Another', 'Person', 'another@person.com');
+    ('Bob', 'the man', 'bob@theman.com', 'BobTHEMAN'),
+    ('This', 'guy', 'this@guy.com', 'ThisGuy12'),
+    ('Another', 'Person', 'another@person.com', 'PERSON2');
 
 create table bucket (
     id int auto_increment primary key,
-    user_id int,
-)
+    user_id int
+);
 
 create table item (
     id int auto_increment primary key,
     name varchar(255),
     description varchar(255)
-)
+);
