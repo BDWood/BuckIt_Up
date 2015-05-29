@@ -42,6 +42,14 @@
 			<div class="content">
 				<div class="title">Laravel 5</div>
 				<div class="quote">{{ Inspiring::quote() }}</div>
+				<a href="/home">Home</a>
+				<a href="/Edit_Bucket">Edit Your Bucket</a>
+				<a href="/Create_Account">Create Account</a>
+				<a href="/about">About</a>
+				<a href="/View_account">Account</a>
+				<a href="/Sign_Up">Sign Up</a>
+				<a href="/Login">Login</a>
+				<a href="/Logout">Logout</a>
 			</div>
 		</div>
 	</body>
