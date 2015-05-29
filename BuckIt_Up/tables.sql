@@ -1,16 +1,17 @@
-drop database Bucket_List;
-create database Bucket_List;
-use Bucket_List;
+drop database BuckIt_Up;
+create database BuckIt_Up;
+use BuckIt_Up;
 
 create table user (
     id int auto_increment primary key,
     first_name varchar(255),
     last_name varchar(255),
     email varchar(255),
-    handle varchar(255)
+    password varchar(255),
+    username varchar(255)
 );
 
-INSERT INTO user (first_name, last_name, email, handle)
+INSERT INTO user (first_name, last_name, email, username)
     values 
     ('Bob', 'the man', 'bob@theman.com', 'BobTHEMAN'),
     ('This', 'guy', 'this@guy.com', 'ThisGuy12'),
