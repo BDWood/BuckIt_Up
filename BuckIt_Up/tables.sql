@@ -8,14 +8,11 @@ create table user (
     last_name varchar(255),
     email varchar(255),
     password varchar(255),
-    username varchar(255)
+    username varchar(255),
+    remember_token varchar(255),
+    created_at datetime,
+    updated_at datetime
 );
-
-INSERT INTO user (first_name, last_name, email, username)
-    values 
-    ('Bob', 'the man', 'bob@theman.com', 'BobTHEMAN'),
-    ('This', 'guy', 'this@guy.com', 'ThisGuy12'),
-    ('Another', 'Person', 'another@person.com', 'PERSON2');
 
 create table bucket (
     id int auto_increment primary key,
