@@ -34,6 +34,8 @@ header {
 header nav {
 	display: flex;
 	justify-content: center;
+	/*text-align: center;*/
+	/*margin: auto;*/
 }
 
 header nav a {
@@ -86,9 +88,9 @@ HERO SECTION
 .hero button {
 	background-color: #EA501A;
 	color: white;
-	font-size: .8em;
-	width: 65px;
-	height: 35px;
+	font-size: 1em;
+	width: 85px;
+	padding: 15px 0;
 	border: none;
 	border-radius: 3px;
 	position: absolute;
@@ -96,11 +98,14 @@ HERO SECTION
 }
 
 .sign-up {
-	left: 408px;
+	left: 47%;
+	transform: translate(-50%);
 }
 
 .login {
-	right: 408px;
+	right: 47%;
+	transform: translate(50%);
+
 }
 
 /****************************************************************
