@@ -1,0 +1,172 @@
+/****************************************************************
+RESET
+*****************************************************************/
+
+html {
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/****************************************************************
+HEADER
+*****************************************************************/
+
+.header {
+	background-color: green;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 10000;
+}
+
+header {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+header nav {
+	display: flex;
+	justify-content: center;
+}
+
+header nav a {
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+}
+
+nav .logo, .settings, .logout {
+	padding: 20px 10px;
+	position: absolute;
+	top: 0;
+}
+
+nav .logo {
+	left: 10px;
+}
+
+nav .main {
+	padding: 20px 10px;
+}
+
+nav .settings {
+	padding: 20px 20px;
+	right: 61px;
+}
+
+nav .logout {
+	right: 10px;
+}
+
+/****************************************************************
+HERO SECTION
+*****************************************************************/
+
+.hero {
+	background-color: yellow;
+	height: 360px;
+	position: relative;
+	margin-top: 58px;
+}
+
+.hero h1 {
+	position: absolute;
+	top: 30px;
+	width: 100%;
+	text-align: center;
+}
+
+.hero button {
+	background-color: #EA501A;
+	color: white;
+	font-size: .8em;
+	width: 65px;
+	height: 35px;
+	border: none;
+	border-radius: 3px;
+	position: absolute;
+	bottom: 115px;
+}
+
+.sign-up {
+	left: 408px;
+}
+
+.login {
+	right: 408px;
+}
+
+/****************************************************************
+MAIN FOOTER
+*****************************************************************/
+
+.inspire {
+	position: absolute;
+	bottom: 65px;
+	width: 100%;
+	text-align: center;
+	
+}
+
+/****************************************************************
+MAIN FOOTER
+*****************************************************************/
+
+.main-footer {
+	background-color: gray;
+	height: 60px;
+}
+
+footer {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+footer div {
+	display: flex;
+	justify-content: center;
+}
+
+.main-footer div a {
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px 40px;
+}
+
+/****************************************************************
+COVERFLOW
+*****************************************************************/
+.coverflow {
+	background-color: pink;
+	height: 360px;
+}
+
+
+
+/****************************************************************
+CONTENT
+*****************************************************************/
+
+.content {
+	background-color: lightblue;
+	height: 360px;
+}
+
+
+
+
+
+
+
+
+
+
