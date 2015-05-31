@@ -73,9 +73,9 @@ HERO SECTION
 
 .hero {
 	background-color: yellow;
-	height: 360px;
+	height: 420px;
 	position: relative;
-	margin-top: 58px;
+	margin-top: 78px;
 }
 
 .hero h1 {
@@ -126,7 +126,7 @@ MAIN FOOTER
 
 .main-footer {
 	background-color: gray;
-	height: 80px;
+	height: 100px;
 }
 
 footer {
@@ -138,6 +138,7 @@ footer {
 footer div {
 	display: flex;
 	justify-content: center;
+	align-items: baseline;
 }
 
 .main-footer div a {
@@ -152,7 +153,7 @@ COVERFLOW
 *****************************************************************/
 .coverflow {
 	background-color: pink;
-	height: 360px;
+	height: 420px;
 }
 
 
@@ -163,7 +164,7 @@ CONTENT
 
 .content {
 	background-color: lightblue;
-	height: 360px;
+	height: 420px;
 }
 
 
