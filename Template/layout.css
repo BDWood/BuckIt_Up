@@ -17,7 +17,7 @@ HEADER
 
 .header {
 	background-color: green;
-	height: 60px;
+	height: 80px;
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -126,7 +126,7 @@ MAIN FOOTER
 
 .main-footer {
 	background-color: gray;
-	height: 60px;
+	height: 80px;
 }
 
 footer {
