@@ -6,11 +6,11 @@ use Auth;
 class UserController extends Controller {
 
     public function create() {
-        return view('reg_login');
+        return view('auth/register');
     }
 
     public function postCreate() {
-        return redirect('home');    
+        return redirect('home') ;    
     }
 
     public function edit() {
@@ -18,7 +18,7 @@ class UserController extends Controller {
     }
 
     public function login() {
-        return view('reg_login');
+        return view('auth/login');
     }
 
     public function logout() {
@@ -27,7 +27,7 @@ class UserController extends Controller {
 
     public function view() {
         if (!auth::check()) {
-            return redirect('reg_login');
+            return redirect('auth/login');
         } 
         return view('view_account');
     }
