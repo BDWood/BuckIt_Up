@@ -8,7 +8,7 @@
 				<div class="panel-heading">Home</div>
 
 				<div class="panel-body">
-					welcome fine people.
+					Welcome fine people, to BuckIt-Up.com and such.
 				</div>
 			</div>
 		</div>

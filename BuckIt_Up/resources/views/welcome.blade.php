@@ -44,11 +44,10 @@
 				<div class="quote">{{ Inspiring::quote() }}</div>
 				<a href="/home">Home</a>
 				<a href="/edit_bucket">Edit Your Bucket</a>
-				<a href="/create_account">Create Account</a>
 				<a href="/about">About</a>
 				<a href="/view_account">Account</a>
-				<a href="/sign_up">Sign Up</a>
-				<a href="/login">Login</a>
+				<a href="/reg_login">Sign Up</a>
+				<a href="/reg_login">Login</a>
 				<a href="/logout">Logout</a>
 			</div>
 		</div>

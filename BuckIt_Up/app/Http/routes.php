@@ -27,16 +27,16 @@ Route::controllers([
 Route::get('bucket', 'BucketController@bucket');
 Route::get('new_bucket', 'BucketController@create');
 Route::post('new_bucket', 'BucketController@postCreate');
-Route::get('edit_Bucket', 'BucketController@edit');
-Route::post('edit_Bucket', 'BucketController@postEdit');
+Route::get('edit_bucket', 'BucketController@edit');
+Route::post('edit_bucket', 'BucketController@postEdit');
 
 /**********************************************
     User Routes
 **********************************************/
 
-Route::get('create_account', 'UserController@create');
-Route::post('create_account', 'UserController@postCreate');
-Route::get('login', 'UserController@login');
+Route::get('reg_login', 'UserController@create');
+Route::post('reg_login', 'UserController@postCreate');
+Route::get('reg_login', 'UserController@login');
 Route::get('logout', 'UserController@logout');
 Route::get('view_account', 'UserController@view');
 

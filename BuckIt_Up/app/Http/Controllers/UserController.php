@@ -6,7 +6,11 @@ use Auth;
 class UserController extends Controller {
 
     public function create() {
-        return view('create_account');
+        return view('reg_login');
+    }
+
+    public function postCreate() {
+        return redirect('home');    
     }
 
     public function edit() {
@@ -14,7 +18,7 @@ class UserController extends Controller {
     }
 
     public function login() {
-        return view('login');
+        return view('reg_login');
     }
 
     public function logout() {
@@ -26,6 +30,10 @@ class UserController extends Controller {
             return redirect('login');
         } 
         return view('view_account');
+    }
+
+    public function viewAll() {
+
     }
 
 }
