@@ -13,7 +13,7 @@
 
 Route::get('/', 'WelcomeController@index');
 
-Route::get('home', 'HomeController@index');
+Route::get('home', 'WelcomeController@home');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
@@ -24,20 +24,21 @@ Route::controllers([
     Bucket Routes
 **********************************************/
 
-Route::get('Make_your_bucket', 'BucketController@create');
-Route::post('Make_your_bucket', 'BucketController@postCreate');
-Route::get('Edit_Bucket', 'BucketController@edit');
-Route::post('Edit_Bucket', 'BucketController@postEdit');
+Route::get('bucket', 'BucketController@bucket');
+Route::get('new_bucket', 'BucketController@create');
+Route::post('new_bucket', 'BucketController@postCreate');
+Route::get('edit_Bucket', 'BucketController@edit');
+Route::post('edit_Bucket', 'BucketController@postEdit');
 
 /**********************************************
     User Routes
 **********************************************/
 
-Route::get('Create_Account', 'UserController@create');
-Route::post('Create_Account', 'UserController@postCreate');
-Route::get('Login', 'UserController@login');
-Route::get('Logout', 'UserController@logout');
-Route::get('View_account', 'UserController@view');
+Route::get('create_account', 'UserController@create');
+Route::post('create_account', 'UserController@postCreate');
+Route::get('login', 'UserController@login');
+Route::get('logout', 'UserController@logout');
+Route::get('view_account', 'UserController@view');
 
 /**********************************************
     Item Routes
@@ -54,4 +55,4 @@ Route::get('view_all_items', 'ItemController@allItems');
     Misc Routes
 **********************************************/
 
-Route::get('about', 'HomeController@about');
+Route::get('about', 'WelcomeController@about');

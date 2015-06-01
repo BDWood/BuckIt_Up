@@ -1,25 +1,31 @@
-<?php namespace App\Http\Controllers;
+<?php 
+namespace App\Http\Controllers;
+
+use Auth;
 
 class UserController extends Controller {
 
     public function create() {
-        return view('Create_Account');
+        return view('create_account');
     }
 
     public function edit() {
-        return view('Edit_bucket');
+        return view('edit_account');
     }
 
     public function login() {
-        return view('Login');
+        return view('login');
     }
 
     public function logout() {
-        return view('Logout');
+        return view('logout');
     }
 
     public function view() {
-        return view('View_Account');
+        if (!auth::check()) {
+            return redirect('login');
+        } 
+        return view('view_account');
     }
 
 }
