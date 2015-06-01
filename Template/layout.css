@@ -175,6 +175,7 @@ COVERFLOW
 .coverflow {
 	background-color: pink;
 	height: 420px;
+	width: 100%;
 }
 
 
@@ -183,12 +184,30 @@ COVERFLOW
 CONTENT
 *****************************************************************/
 
-.content {
+.main-content {
 	background-color: lightblue;
 	height: 420px;
+	width: 100%;
+	margin: -20px 0;
 }
 
+.main-media {
+	background-size: cover;
+	background-color: blue;
+	margin-top: 3%;
+	height: 80%;
+	width: 40%;
+	float: left;
+}
 
+.main-description {
+	margin-left: 45%;
+	margin-right: 30px;
+}
+
+.main-description h3 {
+	padding-top: 40px;
+}
 
 
 
