@@ -11,7 +11,7 @@ class BucketController extends Controller {
 
     public function create() {
         if (!auth::check()) {
-            return redirect('login');
+            return redirect('reg_login');
         }
         return view('new_bucket');
     }

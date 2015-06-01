@@ -27,7 +27,7 @@ class UserController extends Controller {
 
     public function view() {
         if (!auth::check()) {
-            return redirect('login');
+            return redirect('reg_login');
         } 
         return view('view_account');
     }
