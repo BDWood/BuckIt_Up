@@ -47,7 +47,7 @@ header nav a {
 nav .logo, .settings, .logout {
 	padding: 20px 10px;
 	position: absolute;
-	top: 0;
+	top: 10px;
 }
 
 nav .logo {
@@ -75,7 +75,7 @@ HERO SECTION
 	background-color: yellow;
 	height: 420px;
 	position: relative;
-	margin-top: 78px;
+	margin-top: 75px;
 }
 
 .hero h1 {
@@ -146,6 +146,27 @@ footer div {
 	text-decoration: none;
 	display: inline-block;
 	padding: 20px 40px;
+}
+
+
+.fa-twitter-square {
+	color: #5EA9DD;
+}
+
+.fa-facebook-official {
+	color: #3B5998;
+}
+
+.fa-instagram {
+	color: #4C7A9F;
+}
+
+.fa-flickr {
+	color: ;
+}
+
+.fa-tumblr-square {
+	color: #56BC8A;
 }
 
 /****************************************************************
