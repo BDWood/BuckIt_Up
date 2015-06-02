@@ -42,13 +42,10 @@ header nav a {
 	display: inline-block;
 }
 
-nav .logo, .nav-signup, .nav-login {
+nav .logo {
 	padding: 20px 10px;
 	position: absolute;
 	top: 10px;
-}
-
-nav .logo {
 	left: 10px;
 }
 
@@ -57,14 +54,35 @@ nav .main {
 	margin-top: 10px;
 }
 
-nav .nav-signup {
+header nav button {
+	background-color: #EA501A;
+	color: #FFF;
+	font-size: 1em;
+	width: 85px;
+	padding: 15px;
+	border: none;
+	border-radius: 3px;
+	position: absolute;
+	top: 10px;
+}
+
+.nav-signup {
+	right: 10px;
+}
+
+.nav-login {
+	right: 110px;
+
+}
+
+/*nav .nav-signup {
 	padding: 20px 20px;
 	right: 61px;
 }
 
 nav .nav-login {
 	right: 10px;
-}
+}*/
 
 /****************************************************************
 HERO SECTION
