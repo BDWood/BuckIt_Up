@@ -60,7 +60,7 @@ nav .main {
 header nav button {
 	color: #FFF;
 	font-size: 1em;
-	width: 85px;
+	width: 90px;
 	padding: 15px;
 	border: none;
 	border-radius: 3px;
@@ -185,4 +185,68 @@ footer div {
 
 .fa-tumblr-square {
 	color: #56BC8A;
+}
+
+/****************************************************************
+FORMS
+*****************************************************************/
+
+.form-content {
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	text-align: left;
+	border: 2px solid #ccc;
+	border-radius: 15px;
+	position: relative;
+	height: 420px;
+	width: 700px;
+	margin: 105px auto;
+}
+
+.panel-default {
+	color: #666;
+	width: 500px;
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	margin-left:-36%;
+}
+
+.internal-content {
+	/*height: 500px;*/
+	color: #666;
+	width: 500px;
+	text-align: left;
+	border: 2px solid #ccc;
+	border-radius: 15px;
+	width: 700px;
+	padding: 25px;
+	margin: 105px auto;
+}
+
+.internal-content h1 {
+	font-family: 'Poiret One';
+	color: #000;
+	background-color: #ccc;
+	border-radius: 10px;
+	padding: 5px;
+	text-align: center;
+}
+
+.textbox {
+	width: 200px;
+}
+
+.form-group {
+	margin-top: 25px;
+}
+
+.left-form, .right-form {
+	padding-left: 32px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.register {
+	text-align: center;
+	padding: 25px 0;
 }
