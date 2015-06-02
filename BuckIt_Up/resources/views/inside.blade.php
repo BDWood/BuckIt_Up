@@ -1,22 +1,13 @@
 @extends('layout')
 
 @section('content')	
-	<div class="form-content">
-		<div class="panel-body panel-default">
-			<h1>Title</h1>
-			@if (count($errors) > 0)
-				<div class="alert alert-danger">
-					<strong>Whoops!</strong> There were some problems with your input.<br><br>
-					<ul>
-						@foreach ($errors->all() as $error)
-							<li>{{ $error }}</li>
-						@endforeach
-					</ul>
-				</div>
-			@endif
-			<div class="internal-content">
-				
-			</div>	
-		</div>
-	</div>
+	<div class="internal-content">
+            <h1>Title</h1>
+            <h3>Sub-title</h3> <!-- optional -->
+            <div>
+                <p> 
+                fill me with content.
+                </p>
+            </div>  
+    </div>
 @endsection

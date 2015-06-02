@@ -212,10 +212,18 @@ FORMS
 }
 
 .internal-content {
-	height: 500px;
+	/*height: 500px;*/
+	color: #666;
+	width: 500px;
+	text-align: left;
+	border: 2px solid #ccc;
+	border-radius: 15px;
+	width: 700px;
+	padding: 25px;
+	margin: 105px auto;
 }
 
-.panel-default h1 {
+.internal-content h1 {
 	font-family: 'Poiret One';
 	color: #000;
 	background-color: #ccc;
