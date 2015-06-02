@@ -56,6 +56,7 @@ Route::post('new_item', 'ItemController@postCreate');
 Route::get('item/{id}/edit', 'ItemController@edit');
 Route::post('item/{id}/edit', 'ItemController@postEdit');
 Route::get('all_items', 'ItemController@allItems');
+Route::get('item/{id}/delete', 'ItemController@delete');
 
 
 /**********************************************
