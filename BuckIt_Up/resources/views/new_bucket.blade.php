@@ -1,10 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Bucket page</title>
-</head>
-<body>
-  <h1>Make Your Bucket</h1>  
-</body>
-</html>
+@extends('layout')
+
+@section('content')	
+	<div class="internal-content">
+            <h1>New Bucket</h1>
+            <h3>Create your bucket list</h3> <!-- optional -->
+            <div>
+                <p> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Delectus eos cumque sit in quibusdam, obcaecati nihil magni ex. 
+                Omnis odio quia cum eaque ipsam magni natus quibusdam ratione temporibus quod!
+                </p>
+            </div>  
+    </div>
+@endsection

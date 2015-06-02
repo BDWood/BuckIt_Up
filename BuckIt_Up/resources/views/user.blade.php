@@ -1,10 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>User page</title>
-</head>
-<body>
-  <h1>Your Name Here</h1>  
-</body>
-</html>
+@extends('layout')
+
+@section('content')	
+	<div class="internal-content">
+            <h1>User</h1>
+            <h3>Welcome back!!</h3> <!-- optional -->
+            <div>
+                <p> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Delectus eos cumque sit in quibusdam, obcaecati nihil magni ex. 
+                Omnis odio quia cum eaque ipsam magni natus quibusdam ratione temporibus quod!
+                </p>
+            </div>  
+    </div>
+@endsection
