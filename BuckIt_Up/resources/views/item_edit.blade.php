@@ -1,16 +1,23 @@
-<h1>Edit Item</h1>
+@extends('layout')
 
-@if($errors->count() > 0)
-<div class="errors">
-    @foreach($errors->all() as $error)
-    <div>{{ $error }}</div>
-    @endforeach
-</div>
-@endif
+@section('content') 
+    <div class="internal-content">
+        <h1>Edit Item</h1>
+        <div>
+            @if($errors->count() > 0)
+                <div class="errors">
+                    @foreach($errors->all() as $error)
+                    <div>{{ $error }}</div>
+                    @endforeach
+                </div>
+            @endif
 
-<form action="{{ URL::to('item') }}/{{$item->id}}/edit" method="POST">
-    <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>"> 
-    <div><span>Name:</span><input type="text" name="name" value="{{ $item->name }}"></div>
-    <div><span>Description: </span><input type="text" name="description" value="{{ $item->description }}"></div>
-    <div><button>Save</button></div>
-</form>
+            <form action="{{ URL::to('item') }}/{{$item->id}}/edit" method="POST">
+                <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>"> 
+                <div><span>Name:</span><input type="text" name="name" value="{{ $item->name }}"></div>
+                <div><span>Description: </span><input type="text" name="description" value="{{ $item->description }}"></div>
+                <div><button>Save</button></div>
+            </form>
+        </div>  
+    </div>
+@endsection

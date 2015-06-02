@@ -211,6 +211,15 @@ FORMS
 	margin-left:-36%;
 }
 
+.panel-default h1 {
+	font-family: 'Poiret One';
+	color: #000;
+	background-color: #ccc;
+	border-radius: 10px;
+	padding: 5px;
+	text-align: center;
+}
+
 .internal-content {
 	/*height: 500px;*/
 	color: #666;
@@ -249,4 +258,8 @@ FORMS
 .register {
 	text-align: center;
 	padding: 25px 0;
+}
+
+td {
+	padding-right: 15px;
 }
