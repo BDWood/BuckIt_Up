@@ -43,33 +43,39 @@ header nav a {
 	display: inline-block;
 }
 
-nav .logo, .nav-signup, .nav-login {
-	font-size: 1.2em;
-	padding: 20px 10px;
-	position: absolute;
-	top: 10px;
-}
-
 nav .logo {
 	font-family: "Poiret One";
 	font-size: 3em;
 	padding: 0 10px;
+	position: absolute;
+	top: 10px;
 	left: 10px;
 }
 
 nav .main {
-	font-size: 1.2em;
 	padding: 20px 10px;
 	margin-top: 10px;
 }
 
-nav .nav-signup {
-	padding: 20px 30px;
-	right: 61px;
+header nav button {
+	color: #FFF;
+	font-size: 1em;
+	width: 85px;
+	padding: 15px;
+	border: none;
+	border-radius: 3px;
+	position: absolute;
+	top: 10px;
 }
 
-nav .nav-login {
+.nav-signup {
+	background-color: #3B5998;
 	right: 10px;
+}
+
+.nav-login {
+	background-color: transparent;
+	right: 110px;
 }
 
 /****************************************************************
@@ -180,51 +186,3 @@ footer div {
 .fa-tumblr-square {
 	color: #56BC8A;
 }
-
-/****************************************************************
-COVERFLOW
-*****************************************************************/
-
-/*.coverflow {
-	background-color: pink;
-	height: 420px;
-	width: 100%;
-}*/
-
-/****************************************************************
-CONTENT
-*****************************************************************/
-
-/*.main-content {
-	background-color: #F4F4F4;
-	height: 420px;
-	width: 100%;
-	margin: -20px 0;
-}
-
-.main-media {
-	background-size: cover;
-	background-color: blue;
-	margin-top: 3%;
-	margin-left: 30px;
-	height: 80%;
-	width: 40%;
-	float: left;
-}
-
-.main-description {
-	margin-left: 45%;
-	margin-right: 30px;
-}
-
-.main-description h3 {
-	padding-top: 40px;
-}*/
-
-
-
-
-
-
-
-
