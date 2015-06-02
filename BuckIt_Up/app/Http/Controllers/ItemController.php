@@ -35,8 +35,8 @@ class ItemController extends Controller {
         return redirect('item/' . $id);
     }
 
-    public function delete() {
-        $item = new Item();
+    public function delete($id) {
+        $item = new Item($id);
         $item->delete();
         return redirect('all_items');
     }
