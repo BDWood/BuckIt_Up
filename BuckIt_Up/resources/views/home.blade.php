@@ -18,10 +18,10 @@
 	<div class="header">	
 		<header>
 			<nav>
-				<a class="logo" href="#">BuckIt Up</a>
-				<a class="main" href="#">Make List</a>
-				<a class="main" href="#">Find Ideas</a>
-				<a class="main" href="#">About</a>					
+				<a class="logo" href="home">BuckIt Up</a>
+				<a class="main" href="new_bucket">Make List</a>
+				<a class="main" href="all_items">Find Ideas</a>
+				<a class="main" href="about">About</a>					
 				<button class="nav-login" type="submit">Login</button>		
 				<button class="nav-signup" type="submit">Sign Up</button>		
 			</nav>
@@ -30,10 +30,10 @@
 	<div class="hero">
 		<div class="carousel">
 			<div><img src="images/auroraborealis.jpg" alt=""></div>
-			<div><img src="images/rio.jpg" alt=""></div>
+			<div><img src="images/marathon.jpg" alt=""></div>
 			<div><img src="images/greatwall.jpg" alt=""></div>
+			<div><img src="images/rio.jpg" alt=""></div>
 			<div><img src="images/oregon.jpg" alt=""></div>
-			<div><img src="images/russia.jpg" alt=""></div>
 			<div><img src="images/africa.jpg" alt=""></div>
 		</div>
 		<div>
