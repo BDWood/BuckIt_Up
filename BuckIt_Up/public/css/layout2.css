@@ -213,7 +213,7 @@ CONTENT
 }
 
 
-.reg-login {
+.form-content {
 	font-family: "Roboto", Helvetica, Arial, sans-serif;
 	text-align: left;
 	border: 2px solid #ccc;
@@ -231,6 +231,10 @@ CONTENT
 	top: 30px;
 	left: 50%;
 	margin-left:-36%;
+}
+
+.internal-content {
+	height: 500px;
 }
 
 .panel-default h1 {

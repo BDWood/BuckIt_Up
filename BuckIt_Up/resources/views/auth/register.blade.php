@@ -14,7 +14,7 @@
 		</header>		
 	</div>
 
-	<div class="reg-login">		
+	<div class="form-content">		
 		<div class="panel-body panel-default">
 			<h1>Register</h1>
 			@if (count($errors) > 0)
