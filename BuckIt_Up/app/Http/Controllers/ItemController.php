@@ -7,7 +7,7 @@ class ItemController extends Controller {
 
     public function Item($id) {
         $item = new Item($id);
-        return view('item');
+        return view('item', ['item' => $item]);
     }
 
     public function create() {
@@ -28,11 +28,11 @@ class ItemController extends Controller {
     }
 
     public function postEdit($id) {
-        $item = Item::get($id);
-        $item->first_name = Request::get('first_name');
-        $item->last_name = Request::get('last_name');
+        $item = new Item($id);
+        $item->name = Request::get('name');
+        $item->description = Request::get('description');
         $item->save();
-        return redirect('users');
+        return redirect('item/' . $id);
     }
 
     public function delete() {
