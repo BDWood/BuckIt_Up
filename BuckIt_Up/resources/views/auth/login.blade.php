@@ -53,6 +53,9 @@
 										<input type="checkbox" name="remember"> Remember Me
 									</label>
 								</div>
+								<div>
+									<span>Don't have an account? Register <a href="auth/register">here</a>.</span>
+								</div>
 							</div>
 						</div>
 

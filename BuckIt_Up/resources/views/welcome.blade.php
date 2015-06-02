@@ -46,8 +46,8 @@
 				<a href="/edit_bucket">Edit Your Bucket</a>
 				<a href="/about">About</a>
 				<a href="/view_account">Account</a>
-				<a href="/reg_login">Sign Up</a>
-				<a href="/reg_login">Login</a>
+				<a href="/auth/register">Sign Up</a>
+				<a href="/auth/login">Login</a>
 				<a href="/logout">Logout</a>
 			</div>
 		</div>

@@ -13,7 +13,9 @@
 
 Route::get('/', 'WelcomeController@index');
 
-Route::get('home', 'WelcomeController@home');
+Route::get('home', function() {
+    return view('home');
+});
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
@@ -34,9 +36,9 @@ Route::post('edit_bucket', 'BucketController@postEdit');
     User Routes
 **********************************************/
 
-Route::get('reg_login', 'UserController@create');
-Route::post('reg_login', 'UserController@postCreate');
-Route::get('reg_login', 'UserController@login');
+Route::get('auth/register', 'UserController@create');
+Route::post('auth/register', 'UserController@postCreate');
+Route::get('auth/login', 'UserController@login');
 Route::get('logout', 'UserController@logout');
 Route::get('view_account', 'UserController@view');
 
