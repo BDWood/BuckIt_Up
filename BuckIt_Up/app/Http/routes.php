@@ -17,6 +17,10 @@ Route::get('home', function() {
     return view('home');
 });
 
+Route::get('about', function() {
+    return view('about');
+});
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
@@ -56,5 +60,3 @@ Route::get('view_all_items', 'ItemController@allItems');
 /**********************************************
     Misc Routes
 **********************************************/
-
-Route::get('about', 'WelcomeController@about');
