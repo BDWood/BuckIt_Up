@@ -67,3 +67,8 @@ create table item (
     name varchar(255),
     description varchar(255)
 );
+
+INSERT INTO item (name, description)
+    VALUES 
+    ('Skydiving', 'Jump out of a plane'),
+    ('swim with sharks', 'Swim in the Atlantic ocean with sharks');

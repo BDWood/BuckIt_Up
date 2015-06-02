@@ -25,8 +25,11 @@ class ItemController extends Controller {
         return view('item_edit', ['item' => $item]);
     }
 
-    public function postEdit() {
-        
+    public function postEdit($id) {
+        $item = new Item($id);
+        $item->name = Request::input('name');
+        $item->description = Request::input('description');
+        return redirect('item/' . $id);
     }
 
     public function allItems() {
