@@ -48,7 +48,6 @@
 				<a href="/view_account">Account</a>
 				<a href="/auth/register">Sign Up</a>
 				<a href="/auth/login">Login</a>
-				<a href="/auth/logout">Logout</a>
 			</div>
 		</div>
 	</body>

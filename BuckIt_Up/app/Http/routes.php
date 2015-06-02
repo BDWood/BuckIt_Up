@@ -53,9 +53,10 @@ Route::get('view_account', 'UserController@view');
 Route::get('item', 'ItemController@item');
 Route::get('new_item', 'ItemController@create');
 Route::post('new_item', 'ItemController@postCreate');
-Route::get('edit_item', 'ItemController@edit');
-Route::post('edit_item', 'ItemController@postEdit');
-Route::get('view_all_items', 'ItemController@allItems');
+Route::get('item/{id}/edit', 'ItemController@edit');
+Route::post('item/{id}/edit', 'ItemController@postEdit');
+Route::get('all_items', 'ItemController@allItems');
+
 
 /**********************************************
     Misc Routes

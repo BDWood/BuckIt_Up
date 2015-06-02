@@ -1,9 +1,11 @@
 <?php 
 namespace App\Http\Controllers;
+use App\Models\Item;
 
 class ItemController extends Controller {
 
-    public function Item() {
+    public function Item($id) {
+        $item = new Item($id);
         return view('item');
     }
 
@@ -11,12 +13,25 @@ class ItemController extends Controller {
         return view('new_item');
     }
 
-    public function edit() {
-        return view('edit_item');
+    public function postCreate() {
+        $item = new Item();
+        $item->name = Request::input('name');
+        $item->description = Request::input('description');
+        return redirect('User');
+    }
+
+    public function edit($id) {
+        $item = new Item($id);
+        return view('item_edit', ['item' => $item]);
+    }
+
+    public function postEdit() {
+        
     }
 
     public function allItems() {
-        return view('view_all_items');
+        $items = Item::all();
+        return view('all_items', ['items' => $items->getArray()]);
     }
 
 }
