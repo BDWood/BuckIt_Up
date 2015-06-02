@@ -263,3 +263,7 @@ FORMS
 td {
 	padding-right: 15px;
 }
+
+tr:nth-child(odd).in-table {
+	background-color: #EEE;
+}

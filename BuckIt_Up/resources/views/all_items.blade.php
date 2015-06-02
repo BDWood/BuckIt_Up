@@ -11,7 +11,7 @@
                 </tr>
 
                 @foreach($items as $item)
-                <tr>
+                <tr class="in-table">
                     <td><a href="item/{{ $item->id }}">{{ $item->name }}</a></td>
                     <td>{{ $item->description }}</td>
                     <td><a href="item/{{$item->id}}/edit">Edit</a></td>

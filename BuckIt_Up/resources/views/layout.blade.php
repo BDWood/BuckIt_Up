@@ -18,10 +18,10 @@
     <div class="header">    
         <header>
             <nav>
-                <a class="logo" href="home">BuckIt Up</a>
+                <a class="logo" href="/home">BuckIt Up</a>
                 <a class="main" href="#">Make List</a>
                 <a class="main" href="#">Find Ideas</a>
-                <a class="main" href="about">About</a>                  
+                <a class="main" href="/about">About</a>                  
                 <button class="nav-login" type="submit">Account</button>      
                 <button class="nav-signup" type="submit">Logout</button>       
             </nav>
