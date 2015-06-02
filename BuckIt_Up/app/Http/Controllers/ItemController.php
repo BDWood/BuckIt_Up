@@ -1,6 +1,7 @@
 <?php 
 namespace App\Http\Controllers;
 use App\Models\Item;
+use Request;
 
 class ItemController extends Controller {
 
@@ -17,6 +18,7 @@ class ItemController extends Controller {
         $item = new Item();
         $item->name = Request::input('name');
         $item->description = Request::input('description');
+        $item->save();
         return redirect('User');
     }
 
@@ -26,10 +28,17 @@ class ItemController extends Controller {
     }
 
     public function postEdit($id) {
-        $item = new Item($id);
-        $item->name = Request::input('name');
-        $item->description = Request::input('description');
-        return redirect('item/' . $id);
+        $item = Item::get($id);
+        $item->first_name = Request::get('first_name');
+        $item->last_name = Request::get('last_name');
+        $item->save();
+        return redirect('users');
+    }
+
+    public function delete() {
+        $item = new Item();
+        $item->delete();
+        return redirect('all_items');
     }
 
     public function allItems() {
