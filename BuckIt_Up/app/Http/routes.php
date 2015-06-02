@@ -50,7 +50,7 @@ Route::get('view_account', 'UserController@view');
     Item Routes
 **********************************************/
 
-Route::get('item', 'ItemController@item');
+Route::get('item/{id}', 'ItemController@item');
 Route::get('new_item', 'ItemController@create');
 Route::post('new_item', 'ItemController@postCreate');
 Route::get('item/{id}/edit', 'ItemController@edit');
