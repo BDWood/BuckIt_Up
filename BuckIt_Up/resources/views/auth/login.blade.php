@@ -1,19 +1,6 @@
-@extends('layout')
+@extends('form')
 
 @section('content')
-	<div class="header">	
-		<header>
-			<nav>
-				<a class="logo" href="home">BuckIt Up</a>
-				<a class="main" href="#">Make List</a>
-				<a class="main" href="#">Find Ideas</a>
-				<a class="main" href="about">About</a>	
-				<a class="settings" href="#">Account</a>				
-				<a class="logout" href="#">Logout</a>				
-			</nav>
-		</header>		
-	</div>
-	
 	<div class="form-content">
 		<div class="panel-body panel-default">
 			<h1>Login</h1>
@@ -68,5 +55,4 @@
 			</form>
 		</div>
 	</div>
-	
 @endsection

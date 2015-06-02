@@ -27,19 +27,6 @@
             </nav>
         </header>       
     </div>
-
     @yield('content')
-    
-    <div class="main-footer">
-        <footer>
-            <div>
-                <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
-                <a href="#"><i class="fa fa-facebook-official fa-3x"></i></a>
-                <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
-                <a href="#"><i class="fa fa-pinterest-square fa-3x"></i></i></a>
-                <a href="#"><i class="fa fa-tumblr-square fa-3x"></i></a>
-            </div>
-        </footer>
-    </div>
 </body>
 </html>
