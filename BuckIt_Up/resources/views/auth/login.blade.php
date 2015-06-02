@@ -4,10 +4,10 @@
 	<div class="header">	
 		<header>
 			<nav>
-				<a class="logo" href="#">BuckIt Up</a>
+				<a class="logo" href="home">BuckIt Up</a>
 				<a class="main" href="#">Make List</a>
 				<a class="main" href="#">Find Ideas</a>
-				<a class="main" href="#">About</a>	
+				<a class="main" href="about">About</a>	
 				<a class="settings" href="#">Account</a>				
 				<a class="logout" href="#">Logout</a>				
 			</nav>
