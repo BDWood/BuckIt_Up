@@ -65,7 +65,7 @@ header nav button {
 	border: none;
 	border-radius: 3px;
 	position: absolute;
-	top: 10px;
+	top: 15px;
 }
 
 .nav-signup {
@@ -120,12 +120,16 @@ HERO SECTION
 	background-color: #3B5998;
 	left: 46%;
 	transform: translate(-50%);
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+
 }
 
 .login {
 	background-color: #A7A7A7;
 	right: 46%;
 	transform: translate(50%);
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+
 
 }
 
@@ -151,6 +155,7 @@ footer {
 	position: relative;
 	height: 100%;
 	width: 100%;
+
 }
 
 footer div {
