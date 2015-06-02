@@ -4,8 +4,7 @@ RESET
 
 html {
 	box-sizing: border-box;
-	font-family: "Open Sans";
-
+	font-family: "Myriad Set Pro";
 }
 
 *, *:before, *:after {
@@ -35,8 +34,6 @@ header {
 header nav {
 	display: flex;
 	justify-content: center;
-	/*text-align: center;*/
-	/*margin: auto;*/
 }
 
 header nav a {
@@ -45,13 +42,10 @@ header nav a {
 	display: inline-block;
 }
 
-nav .logo, .settings, .logout {
+nav .logo {
 	padding: 20px 10px;
 	position: absolute;
 	top: 10px;
-}
-
-nav .logo {
 	left: 10px;
 }
 
@@ -60,36 +54,65 @@ nav .main {
 	margin-top: 10px;
 }
 
-nav .settings {
+header nav button {
+	background-color: #EA501A;
+	color: #FFF;
+	font-size: 1em;
+	width: 85px;
+	padding: 15px;
+	border: none;
+	border-radius: 3px;
+	position: absolute;
+	top: 10px;
+}
+
+.nav-signup {
+	right: 10px;
+}
+
+.nav-login {
+	right: 110px;
+
+}
+
+/*nav .nav-signup {
 	padding: 20px 20px;
 	right: 61px;
 }
 
-nav .logout {
+nav .nav-login {
 	right: 10px;
-}
+}*/
 
 /****************************************************************
 HERO SECTION
 *****************************************************************/
 
 .hero {
-	background-color: yellow;
-	height: 420px;
+	/*background-color: yellow;*/
+	height: 520px;
+	width: 100%;
 	position: relative;
 	margin-top: 75px;
 }
 
+.carousel img{
+	object-fit: cover;
+	height: 520px;
+	width: 100%;
+}
+
 .hero h1 {
+	color: #FFF;
 	position: absolute;
-	top: 30px;
+	top: 60px;
 	width: 100%;
 	text-align: center;
 }
 
 .hero button {
 	background-color: #EA501A;
-	color: white;
+	color: #FFF;
 	font-size: 1em;
 	width: 85px;
 	padding: 15px 0;
@@ -99,7 +122,7 @@ HERO SECTION
 	bottom: 115px;
 }
 
-.sign-up {
+.signup {
 	left: 47%;
 	transform: translate(-50%);
 }
@@ -109,10 +132,6 @@ HERO SECTION
 	transform: translate(50%);
 
 }
-
-/****************************************************************
-MAIN FOOTER
-*****************************************************************/
 
 .inspire {
 	position: absolute;
@@ -163,8 +182,8 @@ footer div {
 	color: #4C7A9F;
 }
 
-.fa-flickr {
-	color: ;
+.fa-pinterest-square {
+	color: #BC081C;
 }
 
 .fa-tumblr-square {
@@ -211,6 +230,7 @@ CONTENT
 .main-description h3 {
 	padding-top: 40px;
 }
+
 
 
 

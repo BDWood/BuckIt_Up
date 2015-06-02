@@ -225,7 +225,7 @@ CONTENT
 }
 
 .panel-default {
-	/*background-color: beige;*/
+	color: #666;
 	width: 500px;
 	position: absolute;
 	top: 30px;
@@ -235,6 +235,7 @@ CONTENT
 
 .panel-default h1 {
 	font-family: 'Poiret One';
+	color: #000;
 	background-color: #ccc;
 	border-radius: 10px;
 	padding: 5px;
@@ -248,6 +249,19 @@ CONTENT
 .form-group {
 	margin-top: 25px;
 }
+
+.left-form, .right-form {
+	padding-left: 32px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.register {
+	text-align: center;
+	padding: 25px 0;
+}
+
+
 
 
 
