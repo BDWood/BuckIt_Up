@@ -1,0 +1,188 @@
+/****************************************************************
+RESET
+*****************************************************************/
+
+html {
+	box-sizing: border-box;
+	font-family: "Droid Sans";
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/****************************************************************
+HEADER
+*****************************************************************/
+
+.header {
+	background-color: #606060;
+	height: 80px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 10000;
+}
+
+header {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+header nav {
+	display: flex;
+	justify-content: center;
+}
+
+header nav a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
+
+nav .logo {
+	font-family: "Poiret One";
+	font-size: 3em;
+	padding: 0 10px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+nav .main {
+	padding: 20px 10px;
+	margin-top: 10px;
+}
+
+header nav button {
+	color: #FFF;
+	font-size: 1em;
+	width: 85px;
+	padding: 15px;
+	border: none;
+	border-radius: 3px;
+	position: absolute;
+	top: 15px;
+}
+
+.nav-signup {
+	background-color: #3B5998;
+	right: 10px;
+}
+
+.nav-login {
+	background-color: transparent;
+	right: 110px;
+}
+
+/****************************************************************
+HERO SECTION
+*****************************************************************/
+
+.hero {
+	background-color: yellow;
+	height: 545px;
+	width: 100%;
+	position: relative;
+	margin-top: 75px;
+}
+
+.hero .carousel img {
+	object-fit: cover;
+	height: 545px;
+	width: 100%;
+}
+
+.hero h1 {
+	color: #FFF;
+	text-shadow: 2px 2px #000;
+	position: absolute;
+	top: 60px;
+	width: 100%;
+	text-align: center;
+}
+
+.hero button {
+	color: #FFF;
+	font-size: 1em;
+	width: 105px;
+	padding: 15px 0;
+	border: none;
+	border-radius: 3px;
+	position: absolute;
+	bottom: 115px;
+}
+
+.signup {
+	background-color: #3B5998;
+	left: 46%;
+	transform: translate(-50%);
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.login {
+	background-color: #A7A7A7;
+	right: 46%;
+	transform: translate(50%);
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.inspire {
+	color: #FFF;
+	position: absolute;
+	bottom: 65px;
+	width: 100%;
+	text-align: center;	
+}
+
+/****************************************************************
+MAIN FOOTER
+*****************************************************************/
+
+.main-footer {
+	background-color: #F4F4F4;
+	height: 100px;
+}
+
+footer {
+	position: relative;
+	height: 100%;
+	width: 100%;
+
+}
+
+footer div {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.main-footer div a {
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px 40px;
+}
+
+.fa-twitter-square {
+	color: #5EA9DD;
+}
+
+.fa-facebook-official {
+	color: #3B5998;
+}
+
+.fa-instagram {
+	color: #4C7A9F;
+}
+
+.fa-pinterest-square {
+	color: #BC081C;
+}
+
+.fa-tumblr-square {
+	color: #56BC8A;
+}
