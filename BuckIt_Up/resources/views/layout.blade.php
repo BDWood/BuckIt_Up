@@ -15,6 +15,31 @@
 	<script type="text/javascript" src="main.js"></script>
 </head>
 <body>
+    <div class="header">    
+        <header>
+            <nav>
+                <a class="logo" href="#">BuckIt Up</a>
+                <a class="main" href="#">Make List</a>
+                <a class="main" href="#">Find Ideas</a>
+                <a class="main" href="#">About</a>                  
+                <button class="nav-login" type="submit">Account</button>      
+                <button class="nav-signup" type="submit">Logout</button>       
+            </nav>
+        </header>       
+    </div>
+
     @yield('content')
+    
+    <div class="main-footer">
+        <footer>
+            <div>
+                <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                <a href="#"><i class="fa fa-facebook-official fa-3x"></i></a>
+                <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
+                <a href="#"><i class="fa fa-pinterest-square fa-3x"></i></i></a>
+                <a href="#"><i class="fa fa-tumblr-square fa-3x"></i></a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
