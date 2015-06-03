@@ -1,6 +1,8 @@
 <?php 
 namespace App\Http\Controllers;
 
+use App\Models\User;
+
 use Auth;
 
 class UserController extends Controller {
@@ -13,8 +15,19 @@ class UserController extends Controller {
         return redirect('home') ;    
     }
 
-    public function edit() {
-        return view('edit_account');
+    public function edit($id) {
+        $user = new User($id);
+        return view('edit_user');
+    }
+
+    public function postEdit($id) {
+        $user = new User($id);
+        $user->first_name = Request::get('first_name');
+        $user->last_name = Request::get('last_name');
+        $user->email = Request::get('email');
+        $user->username = Request::get('username');
+        $user->save();
+        return redirect('user');
     }
 
     public function login() {
@@ -25,11 +38,12 @@ class UserController extends Controller {
         return view('logout');
     }
 
-    public function view() {
+    public function view($id) {
+        $user = new User($id);
         if (!auth::check()) {
             return redirect('auth/login');
         } 
-        return view('view_account');
+        return view('user', ['user' => $user]);
     }
 
     public function viewAll() {

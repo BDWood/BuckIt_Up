@@ -43,7 +43,7 @@
 				<button class="login" type="submit">Login</button>		
 			</div>
 			<div class="inspire">
-				<span>Insert Inspiring Quote Here</span>
+				<div class="quote"></div>
 			</div>
 		</div>
 	</div>
