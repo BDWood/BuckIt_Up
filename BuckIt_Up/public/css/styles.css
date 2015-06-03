@@ -211,14 +211,6 @@ FORMS
 	margin-left:-36%;
 }
 
-.panel-default h1 {
-	font-family: 'Poiret One';
-	color: #000;
-	background-color: #ccc;
-	border-radius: 10px;
-	padding: 5px;
-	text-align: center;
-}
 
 .internal-content {
 	/*height: 500px;*/
@@ -232,10 +224,10 @@ FORMS
 	margin: 105px auto;
 }
 
-.internal-content h1 {
+.panel-default h1, .internal-content h1 {
 	font-family: 'Poiret One';
-	color: #000;
-	background-color: #ccc;
+	color: #fff;
+	background-color: #3B5998;
 	border-radius: 10px;
 	padding: 5px;
 	text-align: center;
@@ -260,10 +252,15 @@ FORMS
 	padding: 25px 0;
 }
 
-td {
-	padding-right: 15px;
+table {
+	width: 100%;
+	border-collapse: collapse;
 }
 
-tr:nth-child(odd).in-table {
+tr:nth-child(even).in-table {
 	background-color: #EEE;
+}
+
+td, th {
+	padding: 5px 15px;
 }
