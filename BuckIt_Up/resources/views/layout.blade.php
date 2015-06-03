@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>BuckIt Up</title>
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="/css/normalize.css">
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Poiret+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
