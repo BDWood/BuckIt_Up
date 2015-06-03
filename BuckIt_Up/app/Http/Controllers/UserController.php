@@ -34,6 +34,10 @@ class UserController extends Controller {
         return view('auth/login');
     }
 
+    public function postLogin() {
+        return redirect('home');
+    }
+
     public function logout() {
         return view('logout');
     }

@@ -21,10 +21,10 @@ Route::get('about', function() {
     return view('about');
 });
 
-// Route::controllers([
-// 	'auth' => 'Auth\AuthController',
-// 	'password' => 'Auth\PasswordController',
-// ]);
+Route::controllers([
+	'auth' => 'Auth\AuthController',
+	'password' => 'Auth\PasswordController',
+]);
 
 /**********************************************
     Bucket Routes
