@@ -35,6 +35,7 @@ Route::get('new_bucket', 'BucketController@create');
 Route::post('new_bucket', 'BucketController@postCreate');
 Route::get('edit_bucket', 'BucketController@edit');
 Route::post('edit_bucket', 'BucketController@postEdit');
+Route::get('bucket/{id}/delete', 'ItemController@delete');
 
 /**********************************************
     User Routes
