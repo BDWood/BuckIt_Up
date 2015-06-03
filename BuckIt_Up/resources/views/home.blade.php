@@ -22,8 +22,8 @@
 				<a class="main" href="new_bucket">Make List</a>
 				<a class="main" href="all_items">Find Ideas</a>
 				<a class="main" href="about">About</a>					
-				<a class="nav-login" href="/auth/login">Login</a>		
-				<a class="nav-signup" href="/auth/register">Sign Up</a>			
+				<a class="nav-login" href="new_bucket">Login</a>		
+				<a class="nav-signup" href="all_items">Sign Up</a>			
 			</nav>
 		</header>		
 	</div>
@@ -38,9 +38,9 @@
 		</div>
 		<div>
 			<h1>Your Dreams Await ...Turn Them Into Reality.</h1>
-			<div>
-				<button class="signup" type="submit">Sign Up</button>
-				<button class="login" type="submit">Login</button>		
+			<div class="buttons">
+				<a class="signup" href="all_items">Sign Up</a>
+				<a class="login" href="new_bucket">Login</a>		
 			</div>
 			<div class="inspire">
 				<span>Insert Inspiring Quote Here</span>
