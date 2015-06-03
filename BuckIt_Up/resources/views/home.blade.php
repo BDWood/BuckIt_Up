@@ -43,7 +43,7 @@
 				<a class="login" href="new_bucket">Login</a>		
 			</div>
 			<div class="inspire">
-				<span>Insert Inspiring Quote Here</span>
+				<div class="quote"></div>
 			</div>
 		</div>
 	</div>
