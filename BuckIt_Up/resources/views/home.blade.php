@@ -22,8 +22,8 @@
 				<a class="main" href="new_bucket">Make List</a>
 				<a class="main" href="all_items">Find Ideas</a>
 				<a class="main" href="about">About</a>					
-				<button class="nav-login" type="submit">Login</button>		
-				<button class="nav-signup" type="submit">Sign Up</button>		
+				<a class="nav-login" href="/auth/login">Login</a>		
+				<a class="nav-signup" href="/auth/register">Sign Up</a>			
 			</nav>
 		</header>		
 	</div>
