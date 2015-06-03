@@ -6,11 +6,17 @@ use Auth;
 class BucketController extends Controller {
 
     public function viewBucket($id) {
+        if (!auth::check()) {
+            return redirect('auth/login');
+        }
         $bucket = new Bucket($id);
         return view('bucket', ['bucket' => $bucket]);
     }
 
     public function createBucket() {
+        if (!auth::check()) {
+            return redirect('auth/login');
+        }
         return view('new_bucket');
     }
 
@@ -24,6 +30,9 @@ class BucketController extends Controller {
 
     public function editBucket($id) {
         $bucket = new Bucket($id);
+        if (!auth::check()) {
+            return redirect('auth/login');
+        }
         return view('bucket_edit', ['bucket' => $bucket]);
     }
 
@@ -40,26 +49,5 @@ class BucketController extends Controller {
         $bucket->delete();
         return redirect('bucket');
     }
-
-    // public function Bucket() {
-    //     if (!auth::check()) {
-    //         return redirect('auth/login');
-    //     }
-    //     return view('bucket');
-    // }
-
-    // public function create() {
-    //     if (!auth::check()) {
-    //         return redirect('auth/login');
-    //     }
-    //     return view('new_bucket');
-    // }
-
-    // public function edit() {
-    //     if (!auth::check()) {
-    //         return redirect('auth/login');
-    //     }
-    //     return view('edit_bucket');
-    // }
 
 }

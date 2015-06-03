@@ -23,7 +23,7 @@
                 <a class="main" href="all_items">Find Ideas</a>
                 <a class="main" href="about">About</a>                  
                 <a class="nav-login" href="new_bucket">Account</a>		
-				<a class="nav-signup" href="all_items">Logout</a>	      
+				<a class="nav-signup" href="auth/logout">Logout</a>	      
             </nav>
         </header>       
     </div>
