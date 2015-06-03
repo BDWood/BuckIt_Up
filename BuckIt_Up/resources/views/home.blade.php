@@ -22,8 +22,13 @@
 				<a class="main" href="new_bucket">Make List</a>
 				<a class="main" href="all_items">Find Ideas</a>
 				<a class="main" href="about">About</a>					
-				<a class="nav-login" href="auth/login">Login</a>		
-				<a class="nav-signup" href="auth/register">Sign Up</a>			
+				@if (!Auth::check())	
+					<a class="nav-login" href="auth/login">Login</a>		
+					<a class="nav-signup" href="auth/register">Sign Up</a>
+				@else
+					<a class="nav-login" href="new_bucket">Account</a>		
+					<a class="nav-signup" href="auth/logout">Logout</a>
+				@endif			
 			</nav>
 		</header>		
 	</div>
@@ -38,12 +43,16 @@
 		</div>
 		<div>
 			<h1>Your Dreams Await ...Turn Them Into Reality.</h1>
-			<div class="buttons">
-				<a class="signup" href="auth/register">Sign Up</a>
-				<a class="login" href="auth/login">Login</a>		
-			</div>
+			@if (!Auth::check())
+				<div class="buttons">
+					<a class="signup" href="auth/register">Sign Up</a>
+					<a class="login" href="auth/login">Login</a>		
+				</div>
+			@else 
+
+			@endif
 			<div class="inspire">
-				<div class="quote"></div>
+				<div class="quote">{{ Inspiring::quote() }}</div>
 			</div>
 		</div>
 	</div>
