@@ -57,7 +57,7 @@ nav .main {
 	margin-top: 10px;
 }
 
-header nav button {
+nav .nav-signup, .nav-login  {
 	color: #FFF;
 	font-size: 1em;
 	width: 90px;
