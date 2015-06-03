@@ -45,7 +45,7 @@ Route::get('auth/register', 'UserController@create');
 Route::post('auth/register', 'UserController@postCreate');
 Route::get('auth/login', 'UserController@login');
 Route::get('logout', 'UserController@logout');
-Route::get('view_account', 'UserController@view');
+Route::get('user/{id}', 'UserController@view');
 
 /**********************************************
     Item Routes

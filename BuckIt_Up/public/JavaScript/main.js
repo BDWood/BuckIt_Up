@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  
   $('.carousel').slick({
     dots: true,
   	arrows: false,
@@ -7,4 +8,5 @@ $(document).ready(function(){
     autoplay: true,
     autoplaySpeed: 3000
   });
+
 });

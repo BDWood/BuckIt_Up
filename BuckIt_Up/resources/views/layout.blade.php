@@ -21,9 +21,9 @@
                 <a class="logo" href="/home">BuckIt Up</a>
                 <a class="main" href="new_bucket">Make List</a>
                 <a class="main" href="all_items">Find Ideas</a>
-                <a class="main" href="/about">About</a>                  
-                <button class="nav-login" type="submit">Account</button>      
-                <button class="nav-signup" type="submit">Logout</button>       
+                <a class="main" href="about">About</a>                  
+                <a class="nav-login" href="new_bucket">Account</a>		
+				<a class="nav-signup" href="all_items">Logout</a>	      
             </nav>
         </header>       
     </div>
