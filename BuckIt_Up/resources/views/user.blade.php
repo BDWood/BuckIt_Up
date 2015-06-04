@@ -11,5 +11,6 @@
                 Omnis odio quia cum eaque ipsam magni natus quibusdam ratione temporibus quod!
                 </p>
             </div>  
+            <div><a href="user/{{$id}}/delete">Delete</a> Your User Profile</div>
     </div>
 @endsection
