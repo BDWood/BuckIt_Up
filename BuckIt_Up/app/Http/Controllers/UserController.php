@@ -77,9 +77,7 @@ class UserController extends Controller {
         if (!Auth::check()) {
             return redirect('auth/login');
         } 
-        
         $user = Auth::user();
-        // dd($user);
         return view('user', ['user' => $user]);
         
     }
