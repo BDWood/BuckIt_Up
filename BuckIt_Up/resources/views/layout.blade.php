@@ -19,6 +19,7 @@
         <header>
             <nav>
                 <a class="logo" href="/home">BuckIt Up</a>
+                <a class="main" href="bucket">MyBuckIt</a>
                 <a class="main" href="new_bucket">Make List</a>
                 <a class="main" href="all_items">Find Ideas</a>
                 <a class="main" href="about">About</a>                  

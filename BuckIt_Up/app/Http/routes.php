@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function() {
-    return view('home');
+    return redirect('home');
 });
 
 Route::get('home', function() {
@@ -32,7 +32,7 @@ Route::controllers([
     Bucket Routes
 **********************************************/
 
-Route::get('bucket/{user_id}', 'BucketController@viewBucket');
+Route::get('bucket', 'BucketController@viewBucket');
 Route::get('new_bucket', 'BucketController@createBucket');
 Route::post('new_bucket', 'BucketController@postCreate');
 Route::get('edit_bucket', 'BucketController@editBucket');
@@ -52,7 +52,7 @@ Route::get('user/delete', 'UserController@delete');
 Route::get('user', 'UserController@view');
 
 /**********************************************
-    Item Routes
+    Item Routes 
 **********************************************/
 
 Route::get('item/{id}', 'ItemController@item');
@@ -62,8 +62,3 @@ Route::get('item/{id}/edit', 'ItemController@edit');
 Route::post('item/{id}/edit', 'ItemController@postEdit');
 Route::get('all_items', 'ItemController@allItems');
 Route::get('item/{id}/delete', 'ItemController@delete');
-
-
-/**********************************************
-    Misc Routes
-**********************************************/
