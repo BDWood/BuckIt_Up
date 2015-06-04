@@ -53,7 +53,7 @@ class ItemController extends Controller {
         $item->name = Request::get('name');
         $item->description = Request::get('description');
         $item->save();
-        return redirect('item/' . $id);
+        return redirect('all_items');
     }
 
     /**********************************************
