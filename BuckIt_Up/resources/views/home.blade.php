@@ -26,7 +26,7 @@
 					<a class="nav-login" href="auth/login">Login</a>		
 					<a class="nav-signup" href="auth/register">Sign Up</a>
 				@else
-					<a class="nav-login" href="new_bucket">Account</a>		
+					<a class="nav-login" href="user">Account</a>		
 					<a class="nav-signup" href="auth/logout">Logout</a>
 				@endif			
 			</nav>

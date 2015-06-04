@@ -19,7 +19,7 @@ class ItemController extends Controller {
         $item->name = Request::input('name');
         $item->description = Request::input('description');
         $item->save();
-        return redirect('User');
+        return redirect('all_items');
     }
 
     public function edit($id) {

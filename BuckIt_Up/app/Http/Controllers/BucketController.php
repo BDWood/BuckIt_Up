@@ -17,7 +17,8 @@ class BucketController extends Controller {
         if (!auth::check()) {
             return redirect('auth/login');
         }
-        return view('new_bucket');
+        $bucket = new Bucket();
+        return view('new_bucket', ['bucket' => $bucket]);
     }
 
     public function postCreate() {

@@ -32,7 +32,7 @@ Route::controllers([
     Bucket Routes
 **********************************************/
 
-Route::get('bucket', 'BucketController@viewBucket');
+Route::get('bucket/{user_id}', 'BucketController@viewBucket');
 Route::get('new_bucket', 'BucketController@createBucket');
 Route::post('new_bucket', 'BucketController@postCreate');
 Route::get('edit_bucket', 'BucketController@editBucket');
@@ -47,7 +47,9 @@ Route::get('auth/register', 'UserController@create');
 Route::post('auth/register', 'UserController@postCreate');
 Route::get('auth/login', 'UserController@login');
 Route::get('auth/logout', 'UserController@logout');
-Route::get('user/{id}', 'UserController@view');
+Route::get('user', 'UserController@view');
+Route::get('user/delete', 'UserController@delete');
+Route::get('user', 'UserController@view');
 
 /**********************************************
     Item Routes

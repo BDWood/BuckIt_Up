@@ -22,7 +22,7 @@
                 <a class="main" href="new_bucket">Make List</a>
                 <a class="main" href="all_items">Find Ideas</a>
                 <a class="main" href="about">About</a>                  
-                <a class="nav-login" href="new_bucket">Account</a>		
+                <a class="nav-login" href="user">Account</a>		
 				<a class="nav-signup" href="auth/logout">Logout</a>	      
             </nav>
         </header>       

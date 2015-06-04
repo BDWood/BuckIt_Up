@@ -3,13 +3,19 @@
 @section('content')	
 	<div class="internal-content">
             <h1>Bucket</h1>
-            <h3>View Your Bucket</h3> <!-- optional -->
-            <div>
-                <p> 
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Delectus eos cumque sit in quibusdam, obcaecati nihil magni ex. 
-                Omnis odio quia cum eaque ipsam magni natus quibusdam ratione temporibus quod!
-                </p>
-            </div>  
+            <h3>Your Bucket</h3> <!-- optional -->
+            <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+
+                @foreach($items as $item)
+                <tr class="in-table">
+                    <td><a href="item/{{ $item->id }}">{{ $item->name }}</a></td>
+                    <td>{{ $item->description }}</td>
+                    <td><a href="item/{{$item->id}}/edit">Edit</a></td>
+                    <td><a href="item/{{$item->id}}/delete">Delete</a></td>
+                </tr>
+                @endforeach
     </div>
 @endsection

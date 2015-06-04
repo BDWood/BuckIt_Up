@@ -19,6 +19,8 @@
                 </tr>
                 @endforeach
 
+                <div><a href="new_item">Add A New Item</a></div>
+
             </table>
         </div>  
     </div>
