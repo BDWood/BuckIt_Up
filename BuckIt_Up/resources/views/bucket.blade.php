@@ -2,20 +2,54 @@
 
 @section('content')	
 	<div class="internal-content">
-            <h1>Bucket</h1>
-            <h3>Your Bucket</h3> <!-- optional -->
-            <tr>
+            <h1>MyBuckIt</h1>
+            <h3>BuckIt List</h3> <!-- optional -->
+            <table>
+                <tr>
                     <th>Name</th>
                     <th>Description</th>
                 </tr>
-
-                @foreach($items as $item)
+                
                 <tr class="in-table">
-                    <td><a href="item/{{ $item->id }}">{{ $item->name }}</a></td>
-                    <td>{{ $item->description }}</td>
-                    <td><a href="item/{{$item->id}}/edit">Edit</a></td>
-                    <td><a href="item/{{$item->id}}/delete">Delete</a></td>
+                    <td>Name</td>
+                    <td>Description</td>
                 </tr>
-                @endforeach
+                <tr class="in-table">
+                    <td>Name</td>
+                    <td>Description</td>
+                </tr>
+                <tr class="in-table">
+                    <td>Name</td>
+                    <td>Description</td>
+                </tr>
+                <tr class="in-table">
+                    <td>Name</td>
+                    <td>Description</td>
+                </tr>
+                <tr class="in-table">
+                    <td>Name</td>
+                    <td>Description</td>
+                </tr>
+                <tr class="in-table">
+                    <td>Name</td>
+                    <td>Description</td>
+                </tr>
+                <tr class="in-table">
+                    <td>Name</td>
+                    <td>Description</td>
+                </tr>
+                <tr class="in-table">
+                    <td>Name</td>
+                    <td>Description</td>
+                </tr>
+                <tr class="in-table">
+                    <td>Name</td>
+                    <td>Description</td>
+                </tr>
+                <tr class="in-table">
+                    <td>Name</td>
+                    <td>Description</td>
+                </tr>
+            </table>
     </div>
 @endsection
