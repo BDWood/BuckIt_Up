@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-<div class="internal-content"></div>
+<div class="internal-content">
     <h1>Make a New Item</h1>
 
     {{-- {{ print_r($errors->all()) }} --}}
@@ -20,5 +20,5 @@
         <div><span>Description: </span><input type="text" name="description" value="{{ old('description') }}"></div>
         <div><button>Save</button></div>
     </form>
-
+</div>
 @endsection

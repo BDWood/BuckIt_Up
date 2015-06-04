@@ -205,7 +205,7 @@ FORMS
 	position: relative;
 	height: 420px;
 	width: 700px;
-	margin: 105px auto;
+	margin: 155px auto;
 }
 
 .panel-default {
@@ -219,7 +219,6 @@ FORMS
 
 
 .internal-content {
-	/*height: 500px;*/
 	color: #666;
 	width: 500px;
 	text-align: left;
@@ -227,7 +226,7 @@ FORMS
 	border-radius: 15px;
 	width: 700px;
 	padding: 25px;
-	margin: 105px auto;
+	margin: 155px auto;
 }
 
 .panel-default h1, .internal-content h1 {
