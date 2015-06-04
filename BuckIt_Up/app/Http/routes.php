@@ -32,7 +32,7 @@ Route::controllers([
     Bucket Routes
 **********************************************/
 
-Route::get('bucket/{user_id}', 'BucketController@viewBucket');
+Route::get('bucket', 'BucketController@viewBucket');
 Route::get('new_bucket', 'BucketController@createBucket');
 Route::post('new_bucket', 'BucketController@postCreate');
 Route::get('edit_bucket', 'BucketController@editBucket');
