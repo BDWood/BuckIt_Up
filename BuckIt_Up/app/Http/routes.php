@@ -47,8 +47,8 @@ Route::get('auth/register', 'UserController@create');
 Route::post('auth/register', 'UserController@postCreate');
 Route::get('auth/login', 'UserController@login');
 Route::get('auth/logout', 'UserController@logout');
-Route::get('user/{id}', 'UserController@view');
-Route::get('user/{id}/delete', 'UserController@delete');
+Route::get('user', 'UserController@view');
+Route::get('user/delete', 'UserController@delete');
 Route::get('user', 'UserController@view');
 
 /**********************************************

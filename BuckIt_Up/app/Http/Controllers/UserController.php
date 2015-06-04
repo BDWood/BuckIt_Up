@@ -43,16 +43,23 @@ class UserController extends Controller {
         return redirect('home');
     }
 
-    public function view($id) {
-        $user = new User($id);
-        if (!auth::check()) {
+    public function view() {
+        if (!Auth::check()) {
             return redirect('auth/login');
         } 
+        
+        $user = Auth::user();
+        // dd($user);
         return view('user', ['user' => $user]);
+        
+        
     }
 
-    public function viewAll() {
-
+    public function delete() {
+        $user = Auth::user();
+        $user->delete();
+        Auth::logout();
+        return redirect('home');
     }
 
 }
