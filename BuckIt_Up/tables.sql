@@ -72,4 +72,12 @@ create table item (
 INSERT INTO item (name, description, bucket_id)
     VALUES 
     ('Skydiving', 'Jump out of a plane', 1),
-    ('swim with sharks', 'Swim in the Atlantic ocean with sharks', 2);
+    ('Go to Italy', 'Visit the Itallian Swiss Alps', 3),
+    ('Visit Iceland', 'See a glacier and hike to a waterfall', 2),
+    ('Go to Burning Man', 'Wallow in the music fesitval', 1),
+    ('Go to Monoco', 'Watch the Monoco F1 Grand Prix', 3),
+    ('Kiss a Dolphin', 'Take a cruise to the Bahamas', 2),
+    ('Kiss Under a WaterFall', 'Honeymoon to Hawaii', 1),
+    ('Cook a 5 star meal', 'Learn to cook at the Cordon Bleu in France', 3),
+    ('Win an Oscar', 'create an award winning film', 2),
+    ('Go to the Vatican', 'be blessed by the Pope', 1);
