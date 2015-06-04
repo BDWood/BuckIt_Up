@@ -19,7 +19,7 @@
 		<header>
 			<nav>
 				<a class="logo" href="home">BuckIt Up</a>
-				
+
 				@if (!Auth::check())	
 					<a class="logo" href="auth/login">BuckIt Up</a>
 				@else
@@ -36,7 +36,8 @@
 				@else
 					<a class="nav-login" href="user">Account</a>		
 					<a class="nav-signup" href="auth/logout">Logout</a>
-				@endif			
+				@endif
+							
 			</nav>
 		</header>		
 	</div>
