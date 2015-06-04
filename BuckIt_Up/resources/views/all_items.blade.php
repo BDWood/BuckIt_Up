@@ -18,10 +18,8 @@
                     <td><a href="item/{{$item->id}}/delete">Delete</a></td>
                 </tr>
                 @endforeach
-
-                <div><a href="new_item">Add A New Item</a></div>
-
             </table>
-        </div>  
+        </div>
+        <div><a href="new_item">Add A New Item</a></div>  
     </div>
 @endsection

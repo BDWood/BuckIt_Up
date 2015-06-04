@@ -197,16 +197,27 @@ footer div {
 FORMS
 *****************************************************************/
 
-.form-content {
-	font-family: "Roboto", Helvetica, Arial, sans-serif;
+
+
+.form-content, .internal-content {
 	text-align: left;
 	border: 2px solid #ccc;
 	border-radius: 15px;
-	position: relative;
-	height: 420px;
 	width: 700px;
 	margin: 155px auto;
 }
+
+.form-content {
+	position: relative;
+	height: 420px;
+}
+
+
+.internal-content {
+	color: #666;
+	padding: 25px;
+}
+
 
 .panel-default {
 	color: #666;
@@ -215,18 +226,6 @@ FORMS
 	top: 30px;
 	left: 50%;
 	margin-left:-36%;
-}
-
-
-.internal-content {
-	color: #666;
-	width: 500px;
-	text-align: left;
-	border: 2px solid #ccc;
-	border-radius: 15px;
-	width: 700px;
-	padding: 25px;
-	margin: 155px auto;
 }
 
 .panel-default h1, .internal-content h1 {
@@ -260,6 +259,7 @@ FORMS
 table {
 	width: 100%;
 	border-collapse: collapse;
+	margin-bottom: 25px;
 }
 
 tr:nth-child(even).in-table {
