@@ -2,8 +2,8 @@
 
 @section('content')	
 	<div class="internal-content">
-            <h1>New Bucket</h1>
-            <h3>Create your bucket list</h3> <!-- optional -->
+            <h1>New BuckIt</h1>
+            <h3>Create your BuckIt List</h3> <!-- optional -->
             <div>
                 <p> 
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
