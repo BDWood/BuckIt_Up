@@ -69,7 +69,7 @@ create table item (
     bucket_id int
 );
 
-INSERT INTO item (name, description)
+INSERT INTO item (name, description, bucket_id)
     VALUES 
     ('Skydiving', 'Jump out of a plane', 1),
     ('swim with sharks', 'Swim in the Atlantic ocean with sharks', 2);
