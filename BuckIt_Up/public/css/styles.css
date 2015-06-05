@@ -287,11 +287,18 @@ box-shadow: 0 0px 0 rgba(255, 255, 255, 0.5) inset;
 }
 
 /******
-\ user.blade.php - delete user account 
+\ user.blade.php 
 *******/
 
+.user_img {
+	background-color: #cce0ff;
+	width: 200px;
+	padding: 75px 20px;
+	text-align: center;
+}
+
 .delete_user {
-	padding-top: 140px;
+	padding-top: 100px;
 	font-size: .6em;
 }
 
