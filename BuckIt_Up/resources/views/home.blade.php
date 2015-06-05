@@ -52,6 +52,7 @@
 		</div>
 		<div>
 			<h1>Your Dreams Await ...Turn Them Into Reality.</h1>
+			
 			@if (!Auth::check())
 				<div class="buttons">
 					<a class="signup" href="auth/register">Sign Up</a>
@@ -60,6 +61,7 @@
 			@else 
 
 			@endif
+			
 			<div class="inspire">
 				<div class="quote">{{ Inspiring::quote() }}</div>
 			</div>

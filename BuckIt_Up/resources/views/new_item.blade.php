@@ -4,7 +4,6 @@
     <div class="internal-content">
         <h1>Make a New Item</h1>
 
-
         @if($errors->count() > 0)
         <div class="errors">
             @foreach($errors->all() as $error)
