@@ -273,6 +273,8 @@ form button {
 padding: 10px 15px 11px;
 width: 120px;
 background-color: #cce0ff;
+font-weight: bold;
+font-size: 1em;
 color: #333;
 border-radius: 5px;
 -moz-border-radius: 5px;
