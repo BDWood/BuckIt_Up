@@ -218,7 +218,6 @@ FORMS and internal pgs.
 	padding: 25px;
 }
 
-
 .panel-default {
 	color: #666;
 	width: 500px;
@@ -270,6 +269,10 @@ tr:nth-child(even).in-table {
 td, th {
 	padding: 5px 15px;
 }
+
+/******
+\ user.blade.php - delete user account 
+*******/
 
 .delete_user {
 	padding-top: 140px;
