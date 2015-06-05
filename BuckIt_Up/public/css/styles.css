@@ -242,9 +242,6 @@ FORMS and internal pgs.
 	margin-bottom: 20px;
 }
 
-/*.form-group {
-	margin-top: 25px;
-}*/
 
 .left-form, .right-form {
 	padding-left: 32px;
@@ -269,6 +266,22 @@ tr:nth-child(even).in-table {
 
 td, th {
 	padding: 5px 15px;
+}
+
+form button {
+
+padding: 10px 15px 11px;
+width: 120px;
+background-color: #cce0ff;
+color: #333;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: 0px solid #57D6C7;
+cursor: pointer;
+box-shadow: 0 0px 0 rgba(255, 255, 255, 0.5) inset;
+-moz-box-shadow: 0 0px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 0px 0 rgba(255, 255, 255, 0.5) inset;
 }
 
 /******
