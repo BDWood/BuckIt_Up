@@ -11,6 +11,9 @@
             Omnis odio quia cum eaque ipsam magni natus quibusdam ratione temporibus quod!
             </p>
         </div>  
-        <div><a href="user/delete">Delete</a> Your User Profile</div>
+        <div class="delete_user">
+            <a href="user/delete">Delete</a> Your User Profile 
+            <span class="warning">(*This action cannot be undone*)</span>
+        </div>
     </div>
 @endsection
