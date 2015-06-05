@@ -79,5 +79,5 @@ INSERT INTO item (name, description, bucket_id)
     ('Kiss a Dolphin', 'Take a cruise to the Bahamas', 2),
     ('Kiss Under a WaterFall', 'Honeymoon to Hawaii', 1),
     ('Cook a 5 star meal', 'Learn to cook at the Cordon Bleu in France', 3),
-    ('Win an Oscar', 'create an award winning film', 2),
-    ('Go to the Vatican', 'be blessed by the Pope', 1);
+    ('Win an Oscar', 'Create an award winning film', 2),
+    ('Go to the Vatican', 'Be blessed by the Pope', 1);
