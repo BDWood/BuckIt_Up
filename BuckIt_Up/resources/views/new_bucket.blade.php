@@ -5,7 +5,7 @@
         <h1>Create Bucket</h1>
         <h3>Get started on your list ...</h3>
         <div>
-            {{-- <form action="#" method="POST"> --}}
+            <form>
             <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
                 <div>Bucket List Item 1:</div>
                 Name:<br>
