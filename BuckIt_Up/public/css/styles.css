@@ -199,8 +199,6 @@ footer div {
 FORMS and internal pgs.
 *****************************************************************/
 
-
-
 .form-content, .internal-content {
 	text-align: left;
 	border: 2px solid #ccc;
@@ -271,4 +269,13 @@ tr:nth-child(even).in-table {
 
 td, th {
 	padding: 5px 15px;
+}
+
+.delete_user {
+	padding-top: 140px;
+	font-size: .6em;
+}
+
+.warning {
+	color: red;
 }
