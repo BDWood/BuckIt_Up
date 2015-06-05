@@ -67,7 +67,7 @@
                 <br>
                 Description:<br>
                 <input type="text" name="description"><br><br>
-                <div><button>Save</button></div>
+                <div><button>Save</button><button type="reset">Cancel</button></div>
             </form>
         </div>  
     </div>
