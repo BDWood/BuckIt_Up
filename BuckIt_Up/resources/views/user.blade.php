@@ -3,7 +3,7 @@
 @section('content')	
 	<div class="internal-content">
             <h1>User</h1>
-            <h3>Welcome back {{ $user->username }}!!</h3> <!-- optional -->
+            <h3>Welcome {{ $user->username }}!!</h3> <!-- optional -->
             <div>
                 <p> 
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
