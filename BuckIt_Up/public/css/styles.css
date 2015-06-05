@@ -250,6 +250,7 @@ FORMS and internal pgs.
 }
 
 .register {
+	background-color: #red;
 	text-align: center;
 	padding: 25px 0;
 }
@@ -269,7 +270,6 @@ td, th {
 }
 
 form button {
-
 padding: 10px 15px 11px;
 width: 120px;
 background-color: #cce0ff;
@@ -279,11 +279,15 @@ color: #333;
 border-radius: 5px;
 -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
-border: 0px solid #57D6C7;
+border: 0px solid #cce0ff;
 cursor: pointer;
 box-shadow: 0 0px 0 rgba(255, 255, 255, 0.5) inset;
 -moz-box-shadow: 0 0px 0 rgba(255, 255, 255, 0.5) inset;
 -webkit-box-shadow: 0 0px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+form button:first-child {
+	margin-right: 15px;
 }
 
 /******

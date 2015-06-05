@@ -18,7 +18,8 @@
                 <input class="textbox" type="text" name="name" value="{{ $item->name }}"></div>
                 <div><span>Description</span><br>
                 <input class="textbox" type="text" name="description" value="{{ $item->description }}"></div>
-                <div><button>Save</button></div>
+                <div><button type="submit">Save</button>
+                <button type="reset">Cancel</button></div>
             </form>
         </div>  
     </div>

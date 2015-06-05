@@ -18,7 +18,8 @@
             <input class="textbox" type="text" name="name" value="{{ old('name') }}"></div>
             <div><span>Description </span><br>
             <input class="textbox" type="text" name="description" value="{{ old('description') }}"></div>
-            <div><button>Save</button></div>
+            <div><button type="submit">Save</button>
+            <button type="reset">Cancel</button></div>
         </form>
     </div>
 @endsection
