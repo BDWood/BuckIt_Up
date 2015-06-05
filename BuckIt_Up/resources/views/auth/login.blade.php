@@ -40,7 +40,7 @@
 							</label>
 						</div>
 						<div>
-							<span>Don't have an account? Register <a href="/auth/register">here</a>.</span>
+							<p>Don't have an account? Register <a href="/auth/register">here</a>.</p>
 						</div>
 					</div>
 				</div>

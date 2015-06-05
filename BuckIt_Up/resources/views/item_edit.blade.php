@@ -14,8 +14,10 @@
 
             <form action="{{ URL::to('item') }}/{{$item->id}}/edit" method="POST">
                 <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>"> 
-                <div><span>Name:</span><input type="text" name="name" value="{{ $item->name }}"></div>
-                <div><span>Description: </span><input type="text" name="description" value="{{ $item->description }}"></div>
+                <div><span>Name</span><br>
+                <input class="textbox" type="text" name="name" value="{{ $item->name }}"></div>
+                <div><span>Description</span><br>
+                <input class="textbox" type="text" name="description" value="{{ $item->description }}"></div>
                 <div><button>Save</button></div>
             </form>
         </div>  

@@ -242,11 +242,12 @@ FORMS and internal pgs.
 .textbox {
 	width: 200px;
 	margin: 5px 0;
+	margin-bottom: 20px;
 }
 
-.form-group {
+/*.form-group {
 	margin-top: 25px;
-}
+}*/
 
 .left-form, .right-form {
 	padding-left: 32px;
